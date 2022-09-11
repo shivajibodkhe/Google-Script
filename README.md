@@ -20,7 +20,7 @@ Creating a repository to share useful Google Apps scripts code snippet; Feel fre
 
 
 
-# Google Script usefull resource
+# Google Script usefull resources
 1. https://pulse.appsscript.info/
 2. https://developers.google.com/apps-script
 
