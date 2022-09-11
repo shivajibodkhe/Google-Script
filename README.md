@@ -26,4 +26,5 @@ Creating a repository to share useful Google Apps scripts code snippet; Feel fre
 3. https://github.com/google/clasp#clasp
 4. https://developers.google.com/apps-script/guides/clasp
 5. https://www.labnol.org/topic/google-apps-script
+6. https://www.npmjs.com/package/@types/google-apps-script
 
