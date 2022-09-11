@@ -1,4 +1,4 @@
-# Google Scripts
+# Google Script
 
 Creating a repository to share useful Google Apps scripts code snippet; Feel free to share your code sample with me :)
 
