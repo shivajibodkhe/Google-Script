@@ -6,7 +6,7 @@
  * 
  */
 
-//Replace with your Google Sheet copy
+//Replace this id with your Google Sheet
 const MSID = "1b0-NDRQ6q0zVlUbmAemFR3jGazmK49WAOfg1Z7CiQbI";
 const masterSheet = SpreadsheetApp.openById(MSID).getSheetByName("Sheet1");
 const CURRENTUSER = Session.getActiveUser().getEmail()
