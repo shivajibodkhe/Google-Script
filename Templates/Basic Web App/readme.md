@@ -1,1 +1,1 @@
-Basic web app using Google Apps Script
+Basic web app application using Google Apps Script
