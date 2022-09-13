@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+    <?!= HtmlService.createHtmlOutputFromFile('Stylesheet').getContent(); ?>
+    <title>
+        <?!=APPURL?>
+    </title>
+</head>
+
+<body>
+    Error String
+    <h1>
+        <?!=errorString?>
+    </h1>
+</body>
+<?!= HtmlService.createHtmlOutputFromFile('JavaScript').getContent(); ?>
+
+</html>
