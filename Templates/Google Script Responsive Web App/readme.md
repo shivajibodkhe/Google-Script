@@ -4,4 +4,4 @@
 3. Google Apps Script creation permission
 
 # App Script - Web App Template
-[link](https://script.google.com/macros/s/AKfycby4I6dTkwO20wMFyH-NvEaj25b_cL2F2VT9DadDC7U7UQOX3HEbfd6LCMWagvQAVoH1LA/exec)
+[link](https://script.google.com/macros/s/AKfycbw0SXVdl7mILJy5hFnO38XCeiuamWDzLj3qZROU15wkhstz9AYg/exec)
