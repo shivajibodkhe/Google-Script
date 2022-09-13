@@ -1,7 +1,9 @@
 ## Apps Script Project
 1. Create Apps Script Project on GW Admin account or Run Script from GW Admin Id
+2. Copy sample Google Sheet https://docs.google.com/spreadsheets/d/1XDrmd0867NrrEPpmUj89IvY7rfCq9TGtZ_DrbFw_CXY/copy
 2. Set up [Aouth2.0](https://github.com/googleworkspace/apps-script-oauth2#setup) library (Library code: **1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF**
 3. Pick the latest version from the dropdown 
+
 
 ## GCP Project Setting
 1. Create a GCP project to use existing project
