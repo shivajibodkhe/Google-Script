@@ -11,3 +11,6 @@
 3. Download JSON Service Account Download Clint secret
 5. Set up [domain-wide delegation](https://support.google.com/a/answer/162106) for a client
 
+
+### Launching detail video soon
+
