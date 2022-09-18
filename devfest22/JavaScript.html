@@ -1,0 +1,50 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script>
+  /**
+   * Run initializations on web app load.
+   */
+    $(function() {
+      google.script.run
+      .withSuccessHandler(function(cityList) {
+      // Respond to success conditions here.
+       displayUserCities(cityList);
+      })
+      .withFailureHandler(function(msg) {
+      alert(msg)
+      })
+      .getCityList(); //GS functions
+    });
+function displayUserCities(cityList){
+    try{
+    var locHtml='<option value="Select">Select</option>';
+      for(var i=0;i<cityList.length;i++){
+         locHtml+='<option value="'+cityList[i][0]+'">'+cityList[i][0]+'</option>';
+       }
+    $("#userCity").empty().html(locHtml);
+    }catch(e){
+    console.log(e)
+    }
+    }
+  //save form response 
+  $('#frmBasicInfo').submit(function () {
+  var formValues = document.getElementById("frmBasicInfo");
+   google.script.run.withSuccessHandler(function(response){
+         if(response){
+           alert(response)
+           document.getElementById('frmBasicInfo').reset();
+         }else{
+            alert("Error to load Data...");
+         }
+        
+          }).withFailureHandler(function(err){
+            
+            alert(err);
+          }).saveFormResponse(formValues);
+          
+  return false; // it will stop page redirecting
+  })
+</script>
