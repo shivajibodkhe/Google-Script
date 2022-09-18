@@ -6,5 +6,5 @@
 6. Click [here](https://docs.google.com/spreadsheets/d/1gL5BFiK_15XihIFNrxYd8hFkwyTVh6Z4d4AOwKaTkeU/copy) to make a Google copy sheet
 7. Connect web app form data to Google Sheet
 8. Publish web app
-9. Apps Script is based on JavaScript. If you're new to JavaScript, [start from JavaScript and the DOM](https://www.udacity.com/course/javascript-and-the-dom--ud117
+9. Apps Script is based on JavaScript. If you're new to JavaScript, [start from JavaScript and the DOM on udacity](https://www.udacity.com/course/javascript-and-the-dom--ud117
 )
