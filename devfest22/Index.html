@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base target="_top">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Use a templated HTML printing scriptlet to import common stylesheet -->
+  <?!= HtmlService.createHtmlOutputFromFile('Stylesheet').getContent(); ?>
+</head>
+
+<body>
+  <div class="container">
+    <main>
+    <form id="frmBasicInfo" name="frmBasicInfo">
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <label for="userName" class="form-label">Name <font color="red">*</font></label>
+            <input type="text" class="form-control" id="userName" name="userName" placeholder="Full Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="userEmail" class="form-label">Email address <font color="red">*</font></label>
+            <input type="email" class="form-control" id="userEmail" name="userEmail" placeholder="name@example.com"  required>
+          </div>
+          <div class="mb-3">
+            <select class="form-select" id="userCity" name="userCity" name="userCity" aria-label="Floating label select example">
+            <label for="userCity">Your city</label>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="PUNE">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Other">Other</option>
+          </select>
+          </div>
+          <div class="mb-3">
+            <label for="userComments" class="form-label">Comments</label>
+            <textarea class="form-control" id="userComments" name="userComments" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <input type="submit" class="btn btn-primary" value="Submit">
+          </div>
+        </div>
+      </div>
+      
+      </form>
+    </main>
+  </div>
+  <!-- Use a templated HTML printing scriptlet to import JavaScript. -->
+  <?!= HtmlService.createHtmlOutputFromFile('JavaScript').getContent(); ?>
+  
+</body>
+
+</html>
